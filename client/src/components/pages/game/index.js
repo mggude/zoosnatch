@@ -1,4 +1,6 @@
 import React from "react";
+import "../game/game.css";
+
 
 function Game() {
     return (
