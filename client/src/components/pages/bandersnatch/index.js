@@ -1,4 +1,5 @@
 import React from "react";
+import "../bandersnatch/bandersnatch.css";
 
 function Bandersnatch() {
     return (

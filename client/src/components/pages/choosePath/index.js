@@ -1,4 +1,5 @@
 import React from "react";
+import "../choosePath/choosePath.css";
 
 function ChoosePath() {
     return (
