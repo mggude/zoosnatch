@@ -1,7 +1,8 @@
 import React from "react";
-import "../bandersnatch/bandersnatch.css";
+import "../choosePath/choosePath.css";
+import { Col, Row, Container } from "../../components/grid/index";
 
-function Bandersnatch() {
+function ChoosePath() {
     return (
       <Container fluid>
         <Row>
@@ -13,4 +14,4 @@ function Bandersnatch() {
     );
   }
   
-  export default Bandersnatch;
+  export default ChoosePath;

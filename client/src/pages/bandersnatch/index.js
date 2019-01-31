@@ -1,8 +1,8 @@
 import React from "react";
-import "../game/game.css";
+import "../bandersnatch/bandersnatch.css";
+import { Col, Row, Container } from "../../components/grid/index";
 
-
-function Game() {
+function Bandersnatch() {
     return (
       <Container fluid>
         <Row>
@@ -14,4 +14,4 @@ function Game() {
     );
   }
   
-  export default Game;
+  export default Bandersnatch;

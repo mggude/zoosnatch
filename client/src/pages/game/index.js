@@ -1,7 +1,9 @@
 import React from "react";
-import "../about/about.css";
+import "../game/game.css";
+import { Col, Row, Container } from "../../components/grid/index";
 
-function About() {
+
+function Game() {
     return (
       <Container fluid>
         <Row>
@@ -13,4 +15,4 @@ function About() {
     );
   }
   
-  export default About;
+  export default Game;
