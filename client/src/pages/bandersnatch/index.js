@@ -1,4 +1,6 @@
 import React from "react";
+import "../bandersnatch/bandersnatch.css";
+import { Col, Row, Container } from "../../components/grid/index";
 
 function Bandersnatch() {
     return (

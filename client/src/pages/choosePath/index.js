@@ -1,4 +1,6 @@
 import React from "react";
+import "../choosePath/choosePath.css";
+import { Col, Row, Container } from "../../components/grid/index";
 
 function ChoosePath() {
     return (

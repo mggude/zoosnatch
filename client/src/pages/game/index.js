@@ -1,4 +1,7 @@
 import React from "react";
+import "../game/game.css";
+import { Col, Row, Container } from "../../components/grid/index";
+
 
 function Game() {
     return (

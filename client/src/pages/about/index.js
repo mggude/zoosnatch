@@ -1,9 +1,11 @@
 import React from "react";
-import { Col, Row, Container } from "../../components/grid/index"
+import { Col, Row, Container } from "../../components/grid/index";
+import './about.css';
+import { Link } from "react-router-dom";
 
 function About() {
   return (
-    <Container fluid>
+    <Container>
       <Row>
         <Col size="md-12">
           <h1 className="text-center">ZooSnatch</h1>
