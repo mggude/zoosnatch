@@ -18,7 +18,7 @@ function Home() {
       </Row>
       <footer class="fixed-bottom text-center">
         <div class="container">
-          <a href="about.html">About</a>
+          <a href="/about">About</a>
         </div>
       </footer>
     </Container>
