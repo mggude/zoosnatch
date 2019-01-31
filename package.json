@@ -17,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/mggude/zoosnatch/issues"
   },
-  "homepage": "https://github.com/mggude/zoosnatch#readme"
+  "homepage": "https://github.com/mggude/zoosnatch#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.4.8",
+    "morgan": "^1.9.1"
+  }
 }
