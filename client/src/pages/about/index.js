@@ -52,7 +52,7 @@ function About() {
       </Row>
       <footer class="fixed-bottom text-center">
         <div class="container">
-          <a href="home.html">Home</a>
+          <a href="/home">Home</a>
         </div>
       </footer>
     </Container>
