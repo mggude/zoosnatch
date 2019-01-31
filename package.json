@@ -21,9 +21,15 @@
   },
   "homepage": "https://github.com/mggude/zoosnatch#readme",
   "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "colors": "^1.3.3",
+    "connect-flash": "^0.1.1",
     "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "if-env": "^1.0.4",
     "mongoose": "^5.4.8",
     "morgan": "^1.9.1",
-    "if-env": "^1.0.4"
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
   }
 }
