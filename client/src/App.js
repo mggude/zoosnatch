@@ -8,8 +8,16 @@ import game from "./pages/game";
 import bandersnatch from "./pages/bandersnatch";
 import choosePath from "./pages/choosePath";
 
+// function to use authetication/ database to fill state
 
 class App extends Component {
+  state = {
+    unlockedCharacters: 0,
+    currentCharacter: 0,
+    sceneLocation: 0,
+    points:0
+  }
+
   render() {
     return (
       // <div className="App">
@@ -33,3 +41,4 @@ class App extends Component {
 }
 
 export default App;
+
