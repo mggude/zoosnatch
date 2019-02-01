@@ -7,7 +7,7 @@ function Greet() {
     <Container fluid>
       <Row>
         <Col size="md-12">
-          <h1 class="text-center">Greeting</h1>
+          <h1 class="text-center">ZooSnatch</h1>
         </Col>
       </Row>
       <footer class="fixed-bottom text-center">
