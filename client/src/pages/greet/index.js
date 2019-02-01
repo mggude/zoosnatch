@@ -7,11 +7,15 @@ function Greet() {
     <Container fluid>
       <Row>
         <Col size="md-12">
-          <h1 class="text-center">ZooSnatch</h1>
+          <h1 class="text-center">Greeting</h1>
         </Col>
       </Row>
       <footer class="fixed-bottom text-center">
         <div class="container">
+          <a href="/signup">Sign Up</a>
+          <p>-------</p>
+          <a href="/login">Login</a>
+          <p>--------</p>
           <a href="/about">About</a>
         </div>
       </footer>

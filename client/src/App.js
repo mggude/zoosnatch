@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
-import auth from "./pages/auth";
+import Auth from "./pages/Auth";
+import greet from "./pages/greet";
 import home from "./pages/home";
 import about from "./pages/about";
 import game from "./pages/game";
@@ -24,7 +25,9 @@ class App extends Component {
         <Router>
           <div>
             <Switch>
-              <Route exact path="/" component={home} />
+              <Route exact path="/" component={greet} />
+              <Route exact path="/signup" render={(props) => <Auth {...props} action="signup" />} />
+              <Route exact path="/login" render={(props) => <Auth {...props} action="login" />} />
               <Route exact path="/home" component={home} />
               <Route exact path="/about" component={about} />
               <Route exact path="/game" component={game} />
