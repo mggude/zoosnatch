@@ -83,9 +83,9 @@ class Signup extends Component {
                         placeholder="confirm password"
                     />
                     {(this.state.validUsername && this.state.validPassword && this.state.confirmPassword) ? (
-                        <button onClick={this.props.handleSignup} color="success" block>Signup</button>
+                        <button onClick={this.props.handleSignup} color="success">Signup</button>
                     ) : (
-                            <button onClick={this.props.handleSignup} color="danger" block disabled>Signup</button>
+                            <button onClick={this.props.handleSignup} color="danger">Signup</button>
                         )}
 
                 </form>
