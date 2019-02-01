@@ -22,7 +22,7 @@ function Login(props) {
             type="password"
             placeholder="Password"
           />
-          <button id="loginBtn" onClick={props.handleLogin} block>Login</button>
+          <button id="loginBtn" onClick={props.handleLogin}>Login</button>
         </form>
         </div>
     );

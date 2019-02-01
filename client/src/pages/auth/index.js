@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Login from "../../components/Login";
-import Signup from "../../components/Signup";
+import Login from "../../components/Login/index";
+import Signup from "../../components/Signup/index";
 import API from "../../utils/API";
 
 class Auth extends Component {
