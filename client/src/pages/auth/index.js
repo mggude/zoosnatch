@@ -38,11 +38,11 @@ class Auth extends Component {
           console.log("log in successful");
           window.location.href = '/home';
         }
-        else if (user.data.message) {
-          this.setState({
-            message: user.data.message
-          })
+        else if (user.data.loggedIn !== true) {        
+          console.log("log in unsuccessful");
+          window.location.href = '/';
         }
+      
       });
     }
   }
