@@ -67,6 +67,7 @@ class Auth extends Component {
           this.setState({
             message: user.data
           })
+          window.location.href = "/"
         }
       });
     }
